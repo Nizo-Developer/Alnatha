@@ -118,10 +118,13 @@
   stroke: rgba(255, 255, 255, 1);
 }
 .cs-npnxnanbnsnfns00000000001 .cs-window  {
-  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
-  border-color: rgba(234, 234, 234, 1);
-  background: rgba(243, 243, 243, 1);
+  /* box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2); */
+  border-color: rgb(50, 50, 50);
+  /* background: rgba(243, 243, 243, 1); */
   color: rgba(85, 85, 85, 1);
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
 }
 .cs-npnxnanbnsnfns00000000001 .cs-window .cs-diva {
   border-color: rgba(247, 247, 247, 1);
@@ -376,8 +379,8 @@
 }
 .cs-npnxnanbnsnfns00000000001.cs-base  {
   color: rgba(85, 85, 85, 1);
-  border-color: rgba(233, 233, 233, 1);
-  background: linear-gradient(180deg, rgba(233, 233, 233, 1) 0%, rgba(207, 207, 207, 1) 100%);
+  border-color: rgb(50, 50, 50);
+  /* background: linear-gradient(180deg, rgba(233, 233, 233, 1) 0%, rgba(207, 207, 207, 1) 100%); */
 }
 .cs-npnxnanbnsnfns00000000001.cs-base .cs-separator .cs-diva {
   background: rgba(211, 211, 211, 1);
@@ -524,8 +527,8 @@ body.show-focus .tab-focus-box {
 .cs-ResumePromptSlide .cs-6OzfQhNQMCB-ResumePromptSlide-btn0 {
   color: rgba(53, 53, 53, 1);
   border-color: rgba(177, 177, 177, 1);
-  background: linear-gradient(180deg, rgba(245, 245, 245, 1) 0%, rgba(199, 199, 199, 1) 100%);
-  text-shadow: 0 1px 0 rgba(240, 240, 240, 1);
+  transition: all 0.3s ease;
+  /* background: linear-gradient(180deg, rgba(245, 245, 245, 1) 0%, rgba(199, 199, 199, 1) 100%); */
 }
 .cs-ResumePromptSlide .cs-6OzfQhNQMCB-ResumePromptSlide-btn0 .cs-html {
   color: rgba(68, 68, 68, 1);
@@ -534,16 +537,19 @@ body.show-focus .tab-focus-box {
   border-color: rgba(85, 85, 85, 1);
 }
 .cs-ResumePromptSlide .cs-6OzfQhNQMCB-ResumePromptSlide-btn0:hover {
-  background: linear-gradient(180deg, rgba(242, 242, 242, 1) 0%, rgba(175, 175, 175, 1) 100%);
+  /* background: linear-gradient(180deg, rgba(242, 242, 242, 1) 0%, rgba(175, 175, 175, 1) 100%); */
+  background-color: rgb(172, 172, 172);
+  color: white;
 }
 .cs-ResumePromptSlide .cs-6OzfQhNQMCB-ResumePromptSlide-btn0:active {
-  background: linear-gradient(180deg, rgba(199, 199, 199, 1) 0%, rgba(244, 244, 244, 1) 100%);
+  /* background: linear-gradient(180deg, rgba(199, 199, 199, 1) 0%, rgba(244, 244, 244, 1) 100%); */
+  background-color: white;
 }
 .cs-ResumePromptSlide .cs-6OzfQhNQMCB-ResumePromptSlide-btn1 {
   color: rgba(53, 53, 53, 1);
   border-color: rgba(177, 177, 177, 1);
-  background: linear-gradient(180deg, rgba(245, 245, 245, 1) 0%, rgba(199, 199, 199, 1) 100%);
-  text-shadow: 0 1px 0 rgba(240, 240, 240, 1);
+  transition: all 0.3s ease;
+  /* background: linear-gradient(180deg, rgba(245, 245, 245, 1) 0%, rgba(199, 199, 199, 1) 100%); */
 }
 .cs-ResumePromptSlide .cs-6OzfQhNQMCB-ResumePromptSlide-btn1 .cs-html {
   color: rgba(68, 68, 68, 1);
@@ -552,10 +558,10 @@ body.show-focus .tab-focus-box {
   border-color: rgba(85, 85, 85, 1);
 }
 .cs-ResumePromptSlide .cs-6OzfQhNQMCB-ResumePromptSlide-btn1:hover {
-  background: linear-gradient(180deg, rgba(242, 242, 242, 1) 0%, rgba(175, 175, 175, 1) 100%);
+  background-color: rgb(172, 172, 172);
 }
 .cs-ResumePromptSlide .cs-6OzfQhNQMCB-ResumePromptSlide-btn1:active {
-  background: linear-gradient(180deg, rgba(199, 199, 199, 1) 0%, rgba(244, 244, 244, 1) 100%);
+  background-color: white;
 }
 .cs-ExternalInterfaceErrorSlide .cs-buttonOK {
   color: rgba(53, 53, 53, 1);
